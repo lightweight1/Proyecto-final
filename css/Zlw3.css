@@ -192,7 +192,7 @@ position: relative;
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("imagenes/marvel_banner.jpg");
+  background-image: url("../imagenes/marvel_banner.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(10px);     
@@ -337,7 +337,7 @@ font-size: 60px;
 }
 
     footer {
-    background-image: url(../imagenes/image.png);
+    background-image: url(../imagenes/imagen.jpeg);
   color: #ccc;
   text-align: center;
   font-size: 15px;
