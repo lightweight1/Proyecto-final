@@ -440,7 +440,7 @@ color: white; text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
   letter-spacing: 1px;
   }
 .productos {
-  background-image: url("imagenes/image.png") ;
+  background-image: url("../imagenes/image.png") ;
    backdrop-filter: blur(4px);
   }
   .productos h2{
