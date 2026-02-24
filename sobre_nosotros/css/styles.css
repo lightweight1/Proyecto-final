@@ -1,0 +1,128 @@
+
+
+body {
+  font-size: 20px;
+    margin: 0;
+  
+}
+
+
+
+header {
+    background-image: url(../imágenes/papel-tapiz-sello-comico_1134901-185447.avif);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header a{
+      position: absolute;
+  left: 20px;
+  color:rgb(204, 211, 208);
+  text-decoration: none;
+  font-family:'Bangers';
+   text-shadow: -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 130px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-family: 'Bangers' ;
+          text-shadow: 
+  3px 3px 10px rgb(221, 218, 218),   /* sombra*/
+  0 0 15px rgba(221, 218, 218);  
+}
+
+
+
+.equipo {
+    margin-top: 20px;
+    padding: 15px;
+    padding-bottom: 60px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    
+}
+
+
+
+footer {
+    background-image: url(../imágenes/papel-tapiz-sello-comico_1134901-185447.avif);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'Bangers';
+    text-shadow: -1.5px 0 #000,
+     1.5px -1.5px 0 #000,
+    -1.5px  1.5px 0 #000,
+     1.5px  1.5px 0 #000;
+     font-size: 35px;
+}
+
+/* Capa del fondo */
+.fondo-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../imágenes/fondo-textura-metal-azul-oscuro_263512-4085.avif") center/cover no-repeat;
+  filter: blur(3px);
+  transform: scale(1.1); 
+  z-index: -1;
+}
+h1{
+    font-family: 'Bangers';
+    font-size: 50px;
+    text-shadow: -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+     letter-spacing: 1.2px;
+}
+.subtitulo{
+font-family: 'Anton', sans-serif ;
+font-size: 1em;
+text-shadow: -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+      text-shadow: 
+  3px 3px 10px rgba(0, 0, 0, 1),   /* sombra*/
+  0 0 15px rgba(0, 0, 0, 0.8);  
+  color: white;
+}
+p{
+    font-family: 'Poppins';
+    font-size: 22px;
+           color: #111;
+           font-weight: 650;
+           text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.nombres{
+   font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 500;
+       text-shadow: 2px 2px 4px #ffffff;
+        color: #3d3d3d;
+     font-size: 20px;
+}
+.creditos{
+    color: white;
+     text-shadow: -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+     font-size: 30px;
+}

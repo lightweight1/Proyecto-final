@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+  color: white;
+}
+
+/* Menú */
+.menu {
+  background: #000;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: #ff31c1;
+}
+
+/* Banner */
+.banner {
+ background-color: #0c9417;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 24px;
+}
+
+/* Productos */
+.productos {
+  padding: 40px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.tarjeta {
+  width: 280px;
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.etiqueta-sale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 10;                 
+  pointer-events: none;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.tarjeta h3 {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.precio {
+  padding: 0 15px 20px;
+  font-size: 20px;
+  color: #00ff9d;
+}
+
+img{
+
+    transition: transform 0.5s;   
+}
+
+img:hover {
+    transform: scale(1.25); 
+    cursor: pointer;
+    filter: brightness(1.2); 
+    cursor: pointer;
+    
+   
+}
+/*Fondo de poetada de los comics*/
+.fondoportadas {
+position: relative;                   
+  min-height: 500px;                     
+  padding: 80px 30px;
+  text-align: center;
+  color: white;
+  overflow: hidden;                         
+}
+
+  .fondoportadas::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../imagenes/marvel_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);     
+  z-index: -1;     
+
+}
+
+.texto h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.texto p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.btn-comprar {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.imagen-decorativa img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.portadas-container {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.portadas-laterales {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 40px;
+  max-width: 1100px;
+  gap: 40px;               /* distancia entre las portadas */
+}
+
+.portada {
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.portada img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.65);
+  border: 3px solid #2a2a2a;
+  transition: all 0.35s ease;
+  filter: brightness(0.95);
+}
+
+/* Portada central (más grande y destacada) */
+.portada.central {
+filter: brightness(1.4);
+  width: 250px;           
+  transform: scale(1.2);  
+}
+
+
+.portada.lateral {
+  width: 250px;
+  opacity: 0.88;
+  z-index: 2;
+}
+
+.portada.lateral.izquierda {
+  transform: rotate(-6deg) translateX(-25px);
+}
+
+.portada.lateral.derecha {
+  transform: rotate(6deg) translateX(25px);
+}
+
+/* Efecto al pasar el mouse */
+.portada:hover img {
+  transform: scale(1.08);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+  z-index: 10;
+}
+
+.portada:hover {
+  opacity: 1;
+}
+
+.bannerdos {
+ background-color: #0c9417;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.bannerdos p{
+
+ font-size: 24px;
+
+}
+.bannerdos h1{
+
+font-size: 50px;
+  margin-bottom: 15px;
+
+}
+
+.logo{
+
+  width: 40px;               
+  height: 40px;
+  margin: 12px 20px;            
+  vertical-align: middle;  
+  transition: transform 0.3s; 
+
+}
+
+footer {
+  background: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 15px;
+  margin-top: auto;  
+}
