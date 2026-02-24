@@ -46,7 +46,7 @@ body {
 .banner {
     
 
- background-image: url(../imagenes/image.png) ;
+ background-image: url(imagenes/image.png) ;
   text-align: center;
     color: white;
   padding: 80px 20px;
@@ -192,7 +192,7 @@ position: relative;
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../imagenes/marvel_banner.jpg");
+  background-image: url("imagenes/marvel_banner.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(10px);     
@@ -337,7 +337,7 @@ font-size: 60px;
 }
 
     footer {
-    background-image: url(../imagenes/imagen.jpeg);
+    background-image: url(imagenes/imagen.jpeg);
   color: #ccc;
   text-align: center;
   font-size: 15px;
@@ -440,7 +440,7 @@ color: white; text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
   letter-spacing: 1px;
   }
 .productos {
-  background-image: url("../imagenes/image.png") ;
+  background-image: url("imagenes/image.png") ;
    backdrop-filter: blur(4px);
   }
   .productos h2{
